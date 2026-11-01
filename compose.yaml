@@ -1,6 +1,6 @@
 services:
   frontend:
     build: .
-    container_name:frontendd
+    container_name: frontend
     ports:
       - "3002:3000"
